@@ -5,5 +5,5 @@
 1. Download or clone repository
 3. Copy ```914746869``` folder
 4. Go to ```Steam\steamapps\workshop\content\289070``` folder on your PC
-5. Paste ```914746869```
+5. Paste ```914746869``` folder. Overwrite files when asked.
 6. Launch game
