@@ -92,6 +92,7 @@
       <File>Lexindri.xml</File>
       <File>Buildings.xml</File>
       <File>Units.xml</File>
+      <File>Moments.xml</File>	  
     </UpdateDatabase>
     <UpdateText id="Text">
       <Properties>
@@ -154,6 +155,13 @@
       <File>Textures/JediUnitPortraits70.tex</File>
       <File>Textures/JediUnitPortraits95.dds</File>
       <File>Textures/JediUnitPortraits95.tex</File>
+      <File>Textures/MOMENT_BUILDING_HOLOCRON.dds</File>
+      <File>Textures/MOMENT_BUILDING_JEDI_DOJO.dds</File>
+      <File>Textures/MOMENT_BUILDING_JEDI_TEMPLE.dds</File>
+      <File>Textures/MOMENT_UNIT_J_KNIGHT.dds</File>
+      <File>Textures/MOMENT_UNIT_J_MASTER.dds</File>
+      <File>Textures/MOMENT_UNIT_JEDI.dds</File>
+      <File>Textures/MOMENT_UNIT_PADAWAN.dds</File>	  
     </ImportFiles>
     <UpdateText id="SQL_Text_Append">
       <Properties>
@@ -279,5 +287,13 @@
     <File>Textures/Lexi_landscape.tex</File>
     <File>Units.xml</File>
     <File>XLPs/Jedi_UI_Icons.xlp</File>
+	<File>Moments.xml</File>
+	<File>Textures/MOMENT_BUILDING_HOLOCRON.dds</File>
+	<File>Textures/MOMENT_BUILDING_JEDI_DOJO.dds</File>
+	<File>Textures/MOMENT_BUILDING_JEDI_TEMPLE.dds</File>
+	<File>Textures/MOMENT_UNIT_J_KNIGHT.dds</File>
+	<File>Textures/MOMENT_UNIT_J_MASTER.dds</File>
+	<File>Textures/MOMENT_UNIT_JEDI.dds</File>
+	<File>Textures/MOMENT_UNIT_PADAWAN.dds</File>	 	
   </Files>
 </Mod>
