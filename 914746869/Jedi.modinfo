@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="e4d86320-9130-4179-b107-398bdc2601bd" version="1">
+  <Properties>
+    <Name>Jedi led by Lexindri</Name>
+    <Description>A group led by Jedi crash land on Earth and join up with some locals.</Description>
+    <Teaser>A long time ago on a planet close, close to home....</Teaser>
+    <Authors>Stephen Cornelius</Authors>
+    <SpecialThanks>Gedemon, Inuka, and everyone else who works to reverse engineer Civ VI</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>	
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>Lexindri_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <File>Program_ConfigText.xml</File>
+      <File>Global_Text.sql</File>
+    </UpdateText>
+    <UpdateIcons id="ConfigIcons">
+      <File>Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ConfigArt">
+      <File>Jedi led by Lexindri.dep</File>
+    </UpdateArt>
+    <ImportFiles id="ImportFiles">
+      <File>Textures/Jedi_Units_Atlas22.dds</File>
+      <File>Textures/Jedi_Units_Atlas22.tex</File>
+      <File>Textures/Jedi_Units_Atlas256.dds</File>
+      <File>Textures/Jedi_Units_Atlas256.tex</File>
+      <File>Textures/Jedi_Units_Atlas256_FOW.dds</File>
+      <File>Textures/Jedi_Units_Atlas256_FOW.tex</File>
+      <File>Textures/Jedi_Units_Atlas32.dds</File>
+      <File>Textures/Jedi_Units_Atlas32.tex</File>
+      <File>Textures/Jedi_Units_Atlas32_FOW.dds</File>
+      <File>Textures/Jedi_Units_Atlas32_FOW.tex</File>
+      <File>Textures/Jedi_Units_Atlas38.dds</File>
+      <File>Textures/Jedi_Units_Atlas38.tex</File>
+      <File>Textures/Jedi_Units_Atlas38_FOW.dds</File>
+      <File>Textures/Jedi_Units_Atlas38_FOW.tex</File>
+      <File>Textures/Jedi_Units_Atlas50.dds</File>
+      <File>Textures/Jedi_Units_Atlas50.tex</File>
+      <File>Textures/Jedi_Units_Atlas50_FOW.dds</File>
+      <File>Textures/Jedi_Units_Atlas50_FOW.tex</File>
+      <File>Textures/Jedi_Units_Atlas80.dds</File>
+      <File>Textures/Jedi_Units_Atlas80.tex</File>
+      <File>Textures/Jedi_Units_Atlas80_FOW.dds</File>
+      <File>Textures/Jedi_Units_Atlas80_FOW.tex</File>
+      <File>Textures/Jedi_Atlas200.dds</File>
+      <File>Textures/Jedi_Atlas200.tex</File>
+      <File>Textures/Jedi_Atlas22.dds</File>
+      <File>Textures/Jedi_Atlas22.tex</File>
+      <File>Textures/Jedi_Atlas256.dds</File>
+      <File>Textures/Jedi_Atlas256.tex</File>
+      <File>Textures/Jedi_Atlas30.dds</File>
+      <File>Textures/Jedi_Atlas30.tex</File>
+      <File>Textures/Jedi_Atlas36.dds</File>
+      <File>Textures/Jedi_Atlas36.tex</File>
+      <File>Textures/Jedi_Atlas44.dds</File>
+      <File>Textures/Jedi_Atlas44.tex</File>
+      <File>Textures/Jedi_Atlas48.dds</File>
+      <File>Textures/Jedi_Atlas48.tex</File>
+      <File>Textures/Jedi_Atlas50.dds</File>
+      <File>Textures/Jedi_Atlas50.tex</File>
+      <File>Textures/Jedi_Atlas64.dds</File>
+      <File>Textures/Jedi_Atlas64.tex</File>
+      <File>Textures/Jedi_Atlas80.dds</File>
+      <File>Textures/Jedi_Atlas80.tex</File>
+      <File>Textures/Jedi_Color_Atlas45.dds</File>
+      <File>Textures/Jedi_Color_Atlas45.tex</File>
+      <File>Textures/Lexi256.dds</File>
+      <File>Textures/Lexi256.tex</File>
+      <File>Textures/Lexi32.dds</File>
+      <File>Textures/Lexi32.tex</File>
+      <File>Textures/Lexi45.dds</File>
+      <File>Textures/Lexi45.tex</File>
+      <File>Textures/Lexi48.dds</File>
+      <File>Textures/Lexi48.tex</File>
+      <File>Textures/Lexi50.dds</File>
+      <File>Textures/Lexi50.tex</File>
+      <File>Textures/Lexi55.dds</File>
+      <File>Textures/Lexi55.tex</File>
+      <File>Textures/Lexi64.dds</File>
+      <File>Textures/Lexi64.tex</File>
+      <File>Textures/Lexi80.dds</File>
+      <File>Textures/Lexi80.tex</File>
+    </ImportFiles>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Criteria>LeaderCriteria</Criteria>
+      <File>Jedi.xml</File>
+      <File>Lexindri.xml</File>
+      <File>Buildings.xml</File>
+      <File>Units.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Properties>
+        <LoadOrder>100</LoadOrder>
+      </Properties>
+      <Criteria>LeaderCriteria</Criteria>
+      <File>Program_ConfigText.xml</File>
+      <File>Play_Text.xml</File>
+      <File>Global_Text.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <Criteria>LeaderCriteria</Criteria>
+      <File>Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <Criteria>LeaderCriteria</Criteria>
+      <File>Jedi led by Lexindri.dep</File>
+    </UpdateArt>
+    <AddGameplayScripts id="LUA">
+      <File>ForceSensitive_Gameplay.lua</File>
+    </AddGameplayScripts>
+    <AddUserInterfaces id="ContextControl">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>ForceSensitive.xml</File>
+    </AddUserInterfaces>
+    <ImportFiles id="ImportFiles">
+      <File>Textures/Jedi_Units_Atlas22.dds</File>
+      <File>Textures/Jedi_Units_Atlas22.tex</File>
+      <File>Textures/Jedi_Units_Atlas256.dds</File>
+      <File>Textures/Jedi_Units_Atlas256.tex</File>
+      <File>Textures/Jedi_Units_Atlas256_FOW.dds</File>
+      <File>Textures/Jedi_Units_Atlas256_FOW.tex</File>
+      <File>Textures/Jedi_Units_Atlas32.dds</File>
+      <File>Textures/Jedi_Units_Atlas32.tex</File>
+      <File>Textures/Jedi_Units_Atlas32_FOW.dds</File>
+      <File>Textures/Jedi_Units_Atlas32_FOW.tex</File>
+      <File>Textures/Jedi_Units_Atlas38.dds</File>
+      <File>Textures/Jedi_Units_Atlas38.tex</File>
+      <File>Textures/Jedi_Units_Atlas38_FOW.dds</File>
+      <File>Textures/Jedi_Units_Atlas38_FOW.tex</File>
+      <File>Textures/Jedi_Units_Atlas50.dds</File>
+      <File>Textures/Jedi_Units_Atlas50.tex</File>
+      <File>Textures/Jedi_Units_Atlas50_FOW.dds</File>
+      <File>Textures/Jedi_Units_Atlas50_FOW.tex</File>
+      <File>Textures/Jedi_Units_Atlas80.dds</File>
+      <File>Textures/Jedi_Units_Atlas80.tex</File>
+      <File>Textures/Jedi_Units_Atlas80_FOW.dds</File>
+      <File>Textures/Jedi_Units_Atlas80_FOW.tex</File>
+      <File>Textures/JediUnitPortraits200.dds</File>
+      <File>Textures/JediUnitPortraits200.tex</File>
+      <File>Textures/JediUnitPortraits256.dds</File>
+      <File>Textures/JediUnitPortraits256.tex</File>
+      <File>Textures/JediUnitPortraits38.dds</File>
+      <File>Textures/JediUnitPortraits38.tex</File>
+      <File>Textures/JediUnitPortraits50.dds</File>
+      <File>Textures/JediUnitPortraits50.tex</File>
+      <File>Textures/JediUnitPortraits70.dds</File>
+      <File>Textures/JediUnitPortraits70.tex</File>
+      <File>Textures/JediUnitPortraits95.dds</File>
+      <File>Textures/JediUnitPortraits95.tex</File>
+    </ImportFiles>
+    <UpdateText id="SQL_Text_Append">
+      <Properties>
+        <LoadOrder>10000</LoadOrder>
+      </Properties>
+      <File>Play_Text.sql</File>
+    </UpdateText>
+    <UpdateDatabase id="UpdateDBLast">
+      <Properties>
+        <LoadOrder>10000</LoadOrder>
+      </Properties>
+      <File>Lexindri.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Buildings.xml</File>
+    <File>ForceSensitive.lua</File>
+    <File>ForceSensitive.xml</File>
+    <File>ForceSensitive_Gameplay.lua</File>
+    <File>Global_Text.sql</File>
+    <File>Icons.xml</File>
+    <File>Jedi led by Lexindri.dep</File>
+    <File>Jedi.xml</File>
+    <File>Lexindri.sql</File>
+    <File>Lexindri.xml</File>
+    <File>Lexindri_Config.xml</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UILeaders.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Play_Text.sql</File>
+    <File>Play_Text.xml</File>
+    <File>Program_ConfigText.xml</File>
+    <File>Textures/FALLBACK_NEUTRAL_LEXINDRI.dds</File>
+    <File>Textures/FALLBACK_NEUTRAL_LEXINDRI.tex</File>
+    <File>Textures/FOUR_PIXELS.dds</File>
+    <File>Textures/FOUR_PIXELS.tex</File>
+    <File>Textures/JediUnitPortraits200.dds</File>
+    <File>Textures/JediUnitPortraits200.tex</File>
+    <File>Textures/JediUnitPortraits256.dds</File>
+    <File>Textures/JediUnitPortraits256.tex</File>
+    <File>Textures/JediUnitPortraits38.dds</File>
+    <File>Textures/JediUnitPortraits38.tex</File>
+    <File>Textures/JediUnitPortraits50.dds</File>
+    <File>Textures/JediUnitPortraits50.tex</File>
+    <File>Textures/JediUnitPortraits70.dds</File>
+    <File>Textures/JediUnitPortraits70.tex</File>
+    <File>Textures/JediUnitPortraits95.dds</File>
+    <File>Textures/JediUnitPortraits95.tex</File>
+    <File>Textures/Jedi_Atlas200.dds</File>
+    <File>Textures/Jedi_Atlas200.tex</File>
+    <File>Textures/Jedi_Atlas22.dds</File>
+    <File>Textures/Jedi_Atlas22.tex</File>
+    <File>Textures/Jedi_Atlas256.dds</File>
+    <File>Textures/Jedi_Atlas256.tex</File>
+    <File>Textures/Jedi_Atlas30.dds</File>
+    <File>Textures/Jedi_Atlas30.tex</File>
+    <File>Textures/Jedi_Atlas36.dds</File>
+    <File>Textures/Jedi_Atlas36.tex</File>
+    <File>Textures/Jedi_Atlas44.dds</File>
+    <File>Textures/Jedi_Atlas44.tex</File>
+    <File>Textures/Jedi_Atlas48.dds</File>
+    <File>Textures/Jedi_Atlas48.tex</File>
+    <File>Textures/Jedi_Atlas50.dds</File>
+    <File>Textures/Jedi_Atlas50.tex</File>
+    <File>Textures/Jedi_Atlas64.dds</File>
+    <File>Textures/Jedi_Atlas64.tex</File>
+    <File>Textures/Jedi_Atlas80.dds</File>
+    <File>Textures/Jedi_Atlas80.tex</File>
+    <File>Textures/Jedi_Color_Atlas45.dds</File>
+    <File>Textures/Jedi_Color_Atlas45.tex</File>
+    <File>Textures/Jedi_Units_Atlas22.dds</File>
+    <File>Textures/Jedi_Units_Atlas22.tex</File>
+    <File>Textures/Jedi_Units_Atlas256.dds</File>
+    <File>Textures/Jedi_Units_Atlas256.tex</File>
+    <File>Textures/Jedi_Units_Atlas256_FOW.dds</File>
+    <File>Textures/Jedi_Units_Atlas256_FOW.tex</File>
+    <File>Textures/Jedi_Units_Atlas32.dds</File>
+    <File>Textures/Jedi_Units_Atlas32.tex</File>
+    <File>Textures/Jedi_Units_Atlas32_FOW.dds</File>
+    <File>Textures/Jedi_Units_Atlas32_FOW.tex</File>
+    <File>Textures/Jedi_Units_Atlas38.dds</File>
+    <File>Textures/Jedi_Units_Atlas38.tex</File>
+    <File>Textures/Jedi_Units_Atlas38_FOW.dds</File>
+    <File>Textures/Jedi_Units_Atlas38_FOW.tex</File>
+    <File>Textures/Jedi_Units_Atlas50.dds</File>
+    <File>Textures/Jedi_Units_Atlas50.tex</File>
+    <File>Textures/Jedi_Units_Atlas50_FOW.dds</File>
+    <File>Textures/Jedi_Units_Atlas50_FOW.tex</File>
+    <File>Textures/Jedi_Units_Atlas80.dds</File>
+    <File>Textures/Jedi_Units_Atlas80.tex</File>
+    <File>Textures/Jedi_Units_Atlas80_FOW.dds</File>
+    <File>Textures/Jedi_Units_Atlas80_FOW.tex</File>
+    <File>Textures/LEADER_LEXINDRI_NEUTRAL.dds</File>
+    <File>Textures/LEADER_LEXINDRI_NEUTRAL.tex</File>
+    <File>Textures/Lexi Diplomacy.dds</File>
+    <File>Textures/Lexi Diplomacy.tex</File>
+    <File>Textures/Lexi Loading.dds</File>
+    <File>Textures/Lexi Loading.tex</File>
+    <File>Textures/Lexi256.dds</File>
+    <File>Textures/Lexi256.tex</File>
+    <File>Textures/Lexi32.dds</File>
+    <File>Textures/Lexi32.tex</File>
+    <File>Textures/Lexi45.dds</File>
+    <File>Textures/Lexi45.tex</File>
+    <File>Textures/Lexi48.dds</File>
+    <File>Textures/Lexi48.tex</File>
+    <File>Textures/Lexi50.dds</File>
+    <File>Textures/Lexi50.tex</File>
+    <File>Textures/Lexi55.dds</File>
+    <File>Textures/Lexi55.tex</File>
+    <File>Textures/Lexi64.dds</File>
+    <File>Textures/Lexi64.tex</File>
+    <File>Textures/Lexi80.dds</File>
+    <File>Textures/Lexi80.tex</File>
+    <File>Textures/Lexi_landscape.dds</File>
+    <File>Textures/Lexi_landscape.tex</File>
+    <File>Units.xml</File>
+    <File>XLPs/Jedi_UI_Icons.xlp</File>
+  </Files>
+</Mod>
