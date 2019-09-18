@@ -4,30 +4,30 @@
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING"
 			 MomentDataType="MOMENT_DATA_BUILDING"
 			 GameDataType="BUILDING_HOLOCRON"
-			 Texture="ZM_MOMENT_CAMPAIGN_RALLY.dds"/>
+			 Texture="MOMENT_BUILDING_HOLOCRON.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING"
 			 MomentDataType="MOMENT_DATA_BUILDING"
 			 GameDataType="BUILDING_JEDI_DOJO"
-			 Texture="ZM_MOMENT_FILM_STUDIO.dss"/>
+			 Texture="MOMENT_BUILDING_JEDI_DOJO.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING"
 			 MomentDataType="MOMENT_DATA_BUILDING"
 			 GameDataType="BUILDING_JEDI_TEMPLE"
-			 Texture="ZM_MOMENT_PROFIT_UNIVERSITY.dds"/>
+			 Texture="MOMENT_BUILDING_JEDI_TEMPLE.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"
 			 MomentDataType="MOMENT_DATA_UNIT"
 			 GameDataType="UNIT_PADAWAN"
-			 Texture="ZM_MOMENT_PROFIT_UNIVERSITY.dds"/>
+			 Texture="MOMENT_UNIT_PADAWAN.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"
 			 MomentDataType="MOMENT_DATA_UNIT"
 			 GameDataType="UNIT_JEDI"
-			 Texture="ZM_MOMENT_PROFIT_UNIVERSITY.dds"/>
+			 Texture="MOMENT_UNIT_JEDI.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"
 			 MomentDataType="MOMENT_DATA_UNIT"
 			 GameDataType="UNIT_J_KNIGHT"
-			 Texture="ZM_MOMENT_PROFIT_UNIVERSITY.dds"/>
+			 Texture="MOMENT_UNIT_J_KNIGHT.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"
 			 MomentDataType="MOMENT_DATA_UNIT"
 			 GameDataType="UNIT_J_MASTER"
-			 Texture="ZM_MOMENT_PROFIT_UNIVERSITY.dds"/>			 
+			 Texture="MOMENT_UNIT_J_MASTER.dds"/>			 
 	</MomentIllustrations>
 </GameData>
